@@ -17,8 +17,6 @@ class AssetsTable extends PureComponent {
       selectedAsset: {},
       height: window.innerHeight + 'px',
     };
-
-    this.onHeaderClickHandler = this.onHeaderClickHandler.bind(this);
   }
 
   componentDidMount() {
