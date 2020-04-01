@@ -1,4 +1,5 @@
 export default {
-    //assets: [],
-    selectedAssets: []
+    assets: [],
+    selectedAssets: [],
+    popupVisibility: false
 }

@@ -1,5 +1,7 @@
 import {
     SET_SELECTED_ASSETS,
+    SET_POPUP_VISIBILITY,
+    SET_ASSETS
 } from './actions'
 import initialState from '../initialState'
 
@@ -10,6 +12,10 @@ const selectedAssets = (state = initialState.selectedAssets, action) => {
             if (action.selectedAssets instanceof Array) {
                 return [...action.selectedAssets]
             } else return [action.selectedAssets]
+        case SET_ASSETS:
+            return  {...state, assets: action.assets};
+        case SET_POPUP_VISIBILITY:
+            return {...state, popupVisibility: action.isVisible}
         default:
             return state
     }
