@@ -4,7 +4,7 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "lodash": "^4.17.4",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "primeicons": "^2.0.0",
     "primereact": "^4.1.2",
     "prop-types": "^15.6.0",
